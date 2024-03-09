@@ -50,6 +50,7 @@ public:
    //assignment
    Vector& operator=(const Vector& v);
    void set_val(int k, double x);
+   double get_val(int k);
    //indexing
    double& operator()(int i);
    //output

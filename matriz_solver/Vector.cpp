@@ -444,6 +444,10 @@ void Vector::set_val(int k, double x){
 	mData[k-1]=x;
 }
 
+double Vector::get_val(int k){
+  return mData[k-1];
+}
+
 Vector randv(Vector& v){
 	int m = length(v);
 	//srand( (unsigned)time( NULL ) );
